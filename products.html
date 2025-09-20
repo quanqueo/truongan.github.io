@@ -1,0 +1,735 @@
+<!doctype html>
+<html class="no-js" lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Sản phẩm - TRƯỜNG AN</title>
+    
+    <meta name="description" content="Danh sách sản phẩm của Công ty Trường An - Vật tư ngành điện chất lượng cao.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+        
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+        .product-tabs {
+            margin-bottom: 40px;
+        }
+        
+        .product-tabs .nav-link {
+            color: #333;
+            font-weight: 600;
+            padding: 15px 30px;
+            border-radius: 0;
+            position: relative;
+        }
+        
+        .product-tabs .nav-link.active {
+            color: #1AAFEC;
+            background-color: transparent;
+        }
+        
+        .product-tabs .nav-link.active:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #1AAFEC;
+        }
+        
+        .product-card {
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .product-card:hover {
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+        
+        .product-img {
+            height: 220px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f8f8;
+        }
+        
+        .product-img img {
+            max-width: 100%;
+            max-height: 200px;
+            transition: all 0.3s ease;
+        }
+        
+        .product-card:hover .product-img img {
+            transform: scale(1.05);
+        }
+        
+        .product-info {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .product-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .product-price {
+            color: #1AAFEC;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .product-meta {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .page-banner {
+            background: url('assets/images/counter.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 80px 0;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .page-banner:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        
+        .page-banner h2 {
+            color: #fff;
+            margin: 0;
+            font-size: 36px;
+            font-weight: 700;
+        }
+        
+        .breadcrumbs {
+            margin-top: 10px;
+        }
+        
+        .breadcrumbs a {
+            color: #fff;
+            opacity: 0.8;
+        }
+        
+        .breadcrumbs a:hover {
+            opacity: 1;
+        }
+        
+        .breadcrumbs span {
+            color: #fff;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--====== PRELOADER PART START ======-->
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== HEADER PART START ======-->
+    <section class="header_area">
+        <div class="header_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo-truongan.png" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a href="index.html">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="index.html#about">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="index.html#services">Dịch vụ</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a href="products.html">Sản phẩm</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="index.html#team">Đội ngũ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="index.html#testimonial">Khách hàng</a>
+                                    </li>                                    
+                                    <li class="nav-item">
+                                        <a href="index.html#contact">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header navbar -->
+    </section>
+    <!--====== HEADER PART ENDS ======-->
+    
+    <!--====== PAGE BANNER START ======-->
+    <section class="page-banner text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Sản phẩm</h2>
+                    <div class="breadcrumbs">
+                        <a href="index.html">Trang chủ</a>
+                        <span>></span>
+                        <a href="products.html">Sản phẩm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== PAGE BANNER ENDS ======-->
+    
+    <!--====== PRODUCTS PART START ======-->
+    <section class="products-area pt-80 pb-130">
+        <div class="container">
+            <!-- Product Tabs -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="nav nav-tabs product-tabs justify-content-center" id="productTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="bienbao-tab" data-toggle="tab" href="#bienbao" role="tab" aria-controls="bienbao" aria-selected="true">Biển báo</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="maybom-tab" data-toggle="tab" href="#maybom" role="tab" aria-controls="maybom" aria-selected="false">Máy bơm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Tab Content -->
+            <div class="tab-content mt-50" id="productTabsContent">
+                <!-- Biển báo Tab -->
+                <div class="tab-pane fade show active" id="bienbao" role="tabpanel" aria-labelledby="bienbao-tab">
+                    <div class="row" id="bienbao-products">
+                        <!-- Dữ liệu sẽ được binding bằng JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Máy bơm Tab -->
+                <div class="tab-pane fade" id="maybom" role="tabpanel" aria-labelledby="maybom-tab">
+                    <div class="row" id="maybom-products">
+                        <!-- Dữ liệu sẽ được binding bằng JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== PRODUCTS PART ENDS ======-->
+    
+    <!--====== FOOTER PART START ======-->
+    <section class="footer_area bg_cover" style="background-image: url(assets/images/footer_bg.jpg)">
+        <div class="container">
+            <div class="footer_widget pt-80 pb-130">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer_about mt-50">
+                            <a href="#"><img src="assets/images/logo-truongan.png" alt="logo"></a>
+                            <p>Trường An - Đối tác tin cậy cung cấp vật tư ngành điện cho mọi công trình. Chất lượng - Uy tín - Giá tốt.</p>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="footer_link_wrapper d-flex flex-wrap">
+                            <div class="footer_link mt-45">
+                                <h4 class="footer_title">Công ty</h4>
+                                <ul class="link">
+                                    <li><a href="index.html">Trang chủ</a></li>
+                                    <li><a href="index.html#about">Giới thiệu</a></li>
+                                    <li><a href="products.html">Sản phẩm</a></li>
+                                    <li><a href="index.html#services">Dịch vụ</a></li>
+                                    <li><a href="index.html#contact">Liên hệ</a></li>
+                                </ul>
+                            </div> <!-- footer link -->
+                            <div class="footer_link mt-45">
+                                <h4 class="footer_title">Hỗ trợ</h4>
+                                <ul class="link">
+                                    <li><a href="#">Điều khoản sử dụng</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                    <li><a href="#">Chính sách đổi trả</a></li>
+                                    <li><a href="#">Hướng dẫn mua hàng</a></li>
+                                    <li><a href="#">Liên hệ hỗ trợ</a></li>
+                                </ul>
+                            </div> <!-- footer link -->
+                            <div class="footer_link mt-45">
+                                <h4 class="footer_title">Liên hệ</h4>
+                                <ul class="link">
+                                    <li><a href="#">+84 963 800 168</a></li>
+                                    <li><a href="mailto:truonganadv@gmail.com">truonganadv@gmail.com</a></li>
+                                    <li><a href="#">Khu đấu giá QSD đất Kiến Hưng-Hà Cầu, Phường Kiến Hưng, Quận Hà Đông, TP. Hà Nội</a></li>
+                                </ul>
+                            </div> <!-- footer link -->
+                        </div> <!-- footer link wrapper -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- footer widget -->
+        </div> <!-- container -->
+    </section>
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== WOW js ======-->
+    <script src="assets/js/wow.min.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
+    <script>
+        // Dữ liệu sản phẩm biển báo
+        const bienBaoData = [
+            {
+                id: 1,
+                title: 'Biển báo cấm dừng và đỗ',
+                meta: 'Kích thước: 70x70cm',
+                image: 'assets/images/bienbao/bienbao1.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BB-001',
+                description: 'Biển báo cấm dừng và đỗ xe được sử dụng để thông báo đoạn đường cấm dừng, cấm đỗ phương tiện giao thông. Biển được làm từ chất liệu cao cấp, bền bỉ với thời gian và điều kiện thời tiết.',
+                specs: {
+                    'Kích thước': '70 x 70 cm',
+                    'Chất liệu': 'Tôn sơn phản quang',
+                    'Độ bền': '5-7 năm',
+                    'Tiêu chuẩn': 'QCVN 41:2019/BGTVT',
+                    'Xuất xứ': 'Việt Nam'
+                }
+            },
+            {
+                id: 2,
+                title: 'Biển báo giới hạn tốc độ',
+                meta: 'Kích thước: 60x60cm',
+                image: 'assets/images/bienbao/bienbao2.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BB-002',
+                description: 'Biển báo giới hạn tốc độ dùng để báo cho người tham gia giao thông biết giới hạn tốc độ tối đa cho phép các phương tiện chạy với tốc độ tối đa không vượt quá trị số ghi trên biển.',
+                specs: {
+                    'Kích thước': '60 x 60 cm',
+                    'Chất liệu': 'Tôn sơn phản quang',
+                    'Độ bền': '5-7 năm',
+                    'Tiêu chuẩn': 'QCVN 41:2019/BGTVT',
+                    'Xuất xứ': 'Việt Nam'
+                }
+            },
+            {
+                id: 3,
+                title: 'Biển báo nguy hiểm',
+                meta: 'Kích thước: 75x75cm',
+                image: 'assets/images/bienbao/bienbao3.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BB-003',
+                description: 'Biển báo nguy hiểm là biển báo giao thông báo cho người tham gia giao thông biết trước các nguy hiểm trên đường để chủ động phòng tránh.',
+                specs: {
+                    'Kích thước': '75 x 75 cm',
+                    'Chất liệu': 'Tôn sơn phản quang',
+                    'Độ bền': '5-7 năm',
+                    'Tiêu chuẩn': 'QCVN 41:2019/BGTVT',
+                    'Xuất xứ': 'Việt Nam'
+                }
+            },
+            {
+                id: 4,
+                title: 'Biển báo chỉ dẫn',
+                meta: 'Kích thước: 80x60cm',
+                image: 'assets/images/bienbao/bienbao4.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BB-004',
+                description: 'Biển báo chỉ dẫn là biển báo giao thông giúp định hướng và cung cấp thông tin hữu ích cho người tham gia giao thông.',
+                specs: {
+                    'Kích thước': '80 x 60 cm',
+                    'Chất liệu': 'Tôn sơn phản quang',
+                    'Độ bền': '5-7 năm',
+                    'Tiêu chuẩn': 'QCVN 41:2019/BGTVT',
+                    'Xuất xứ': 'Việt Nam'
+                }
+            },
+            {
+                id: 5,
+                title: 'Biển báo cấm đi ngược chiều',
+                meta: 'Kích thước: 65x65cm',
+                image: 'assets/images/bienbao/bienbao5.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BB-005',
+                description: 'Biển báo cấm đi ngược chiều được sử dụng để báo đường cấm tất cả các loại phương tiện đi vào theo chiều đặt biển.',
+                specs: {
+                    'Kích thước': '65 x 65 cm',
+                    'Chất liệu': 'Tôn sơn phản quang',
+                    'Độ bền': '5-7 năm',
+                    'Tiêu chuẩn': 'QCVN 41:2019/BGTVT',
+                    'Xuất xứ': 'Việt Nam'
+                }
+            },
+            {
+                id: 6,
+                title: 'Biển báo công trường',
+                meta: 'Kích thước: 90x70cm',
+                image: 'assets/images/bienbao/bienbao6.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BB-006',
+                description: 'Biển báo công trường được sử dụng để cảnh báo khu vực đang thi công, yêu cầu người tham gia giao thông chú ý và giảm tốc độ.',
+                specs: {
+                    'Kích thước': '90 x 70 cm',
+                    'Chất liệu': 'Tôn sơn phản quang',
+                    'Độ bền': '5-7 năm',
+                    'Tiêu chuẩn': 'QCVN 41:2019/BGTVT',
+                    'Xuất xứ': 'Việt Nam'
+                }
+            },
+            {
+                id: 7,
+                title: 'Biển báo đường giao nhau',
+                meta: 'Kích thước: 70x70cm',
+                image: 'assets/images/bienbao/bienbao7.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BB-007',
+                description: 'Biển báo đường giao nhau được đặt trước khi đến nơi đường giao nhau cùng mức với đường khác.',
+                specs: {
+                    'Kích thước': '70 x 70 cm',
+                    'Chất liệu': 'Tôn sơn phản quang',
+                    'Độ bền': '5-7 năm',
+                    'Tiêu chuẩn': 'QCVN 41:2019/BGTVT',
+                    'Xuất xứ': 'Việt Nam'
+                }
+            },
+            {
+                id: 8,
+                title: 'Biển báo đường đôi',
+                meta: 'Kích thước: 75x60cm',
+                image: 'assets/images/bienbao/bienbao8.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BB-008',
+                description: 'Biển báo đường đôi thông báo cho người tham gia giao thông biết bắt đầu đoạn đường có chiều đi và chiều về phân biệt bằng dải phân cách cứng.',
+                specs: {
+                    'Kích thước': '75 x 60 cm',
+                    'Chất liệu': 'Tôn sơn phản quang',
+                    'Độ bền': '5-7 năm',
+                    'Tiêu chuẩn': 'QCVN 41:2019/BGTVT',
+                    'Xuất xứ': 'Việt Nam'
+                }
+            }
+        ];
+
+        // Mảng dữ liệu máy bơm
+        const mayBomData = [
+            {
+                id: 1,
+                title: 'Máy bơm công nghiệp HSL',
+                meta: 'Công suất: 750W - 1.5KW',
+                image: 'assets/images/maybom/bom1.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'HSL-750',
+                description: 'Máy bơm công nghiệp HSL là dòng máy bơm chất lượng cao, được thiết kế đặc biệt cho các ứng dụng công nghiệp, đảm bảo hiệu suất cao và độ bền vượt trội. Sản phẩm được nhập khẩu chính hãng với đầy đủ giấy tờ CO, CQ.',
+                specs: {
+                    'Công suất': '750W - 1.5KW',
+                    'Lưu lượng': '12-30 m³/h',
+                    'Cột áp': '15-32m',
+                    'Đường kính ống hút': '40mm (1.5")',
+                    'Đường kính ống đẩy': '40mm (1.5")',
+                    'Điện áp': '220V/380V - 50Hz',
+                    'Vật liệu thân máy': 'Gang đúc',
+                    'Vật liệu cánh bơm': 'Thép không gỉ',
+                    'Xuất xứ': 'Đài Loan',
+                    'Bảo hành': '12 tháng'
+                }
+            },
+            {
+                id: 2,
+                title: 'Máy bơm nước thải HCP',
+                meta: 'Công suất: 0.75HP - 5HP',
+                image: 'assets/images/maybom/bom2.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'HCP-075',
+                description: 'Máy bơm nước thải HCP được thiết kế chuyên dụng để bơm nước thải, nước bẩn có lẫn cặn. Máy có khả năng bơm được nước thải có lẫn cặn bẩn với kích thước hạt lên đến 35mm.',
+                specs: {
+                    'Công suất': '0.75HP - 5HP',
+                    'Lưu lượng': '15-40 m³/h',
+                    'Cột áp': '8-25m',
+                    'Đường kính ống': '50mm (2")',
+                    'Điện áp': '220V/380V - 50Hz',
+                    'Vật liệu thân máy': 'Gang đúc',
+                    'Vật liệu cánh bơm': 'Thép không gỉ',
+                    'Xuất xứ': 'Đài Loan',
+                    'Bảo hành': '12 tháng'
+                }
+            },
+            {
+                id: 3,
+                title: 'Máy bơm ly tâm trục ngang',
+                meta: 'Công suất: 2.2KW - 7.5KW',
+                image: 'assets/images/maybom/bom3.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'LTTN-22',
+                description: 'Máy bơm ly tâm trục ngang có công suất lớn, thích hợp cho các hệ thống cấp nước quy mô lớn, nhà máy công nghiệp và hệ thống tưới tiêu nông nghiệp.',
+                specs: {
+                    'Công suất': '2.2KW - 7.5KW',
+                    'Lưu lượng': '25-80 m³/h',
+                    'Cột áp': '30-65m',
+                    'Đường kính ống hút': '65mm (2.5")',
+                    'Đường kính ống đẩy': '50mm (2")',
+                    'Điện áp': '380V - 50Hz',
+                    'Vật liệu thân máy': 'Gang đúc',
+                    'Vật liệu cánh bơm': 'Đồng hoặc thép không gỉ',
+                    'Xuất xứ': 'Việt Nam',
+                    'Bảo hành': '12 tháng'
+                }
+            },
+            {
+                id: 4,
+                title: 'Máy bơm chìm nước thải',
+                meta: 'Công suất: 1.5KW - 11KW',
+                image: 'assets/images/maybom/bom4.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BCNT-15',
+                description: 'Máy bơm chìm nước thải có khả năng bơm nước thải có lẫn cặn bẩn, rác thải và chất rắn. Thiết kế chìm hoàn toàn giúp tiết kiệm không gian và tăng hiệu quả làm việc.',
+                specs: {
+                    'Công suất': '1.5KW - 11KW',
+                    'Lưu lượng': '15-120 m³/h',
+                    'Cột áp': '8-30m',
+                    'Đường kính ống': '50-100mm',
+                    'Điện áp': '380V - 50Hz',
+                    'Vật liệu thân máy': 'Gang đúc',
+                    'Vật liệu cánh bơm': 'Thép không gỉ',
+                    'Kích thước hạt rắn tối đa': '35-50mm',
+                    'Xuất xứ': 'Đài Loan',
+                    'Bảo hành': '12 tháng'
+                }
+            },
+            {
+                id: 5,
+                title: 'Máy bơm tăng áp',
+                meta: 'Công suất: 0.37KW - 0.75KW',
+                image: 'assets/images/maybom/bom5.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BTA-037',
+                description: 'Máy bơm tăng áp được thiết kế để tăng áp lực nước trong hệ thống cấp nước sinh hoạt, đặc biệt phù hợp cho chung cư, khách sạn và các công trình cao tầng.',
+                specs: {
+                    'Công suất': '0.37KW - 0.75KW',
+                    'Lưu lượng': '5-15 m³/h',
+                    'Cột áp': '12-35m',
+                    'Đường kính ống': '25mm (1")',
+                    'Điện áp': '220V - 50Hz',
+                    'Vật liệu thân máy': 'Thép không gỉ',
+                    'Vật liệu cánh bơm': 'Thép không gỉ',
+                    'Xuất xứ': 'Đài Loan',
+                    'Bảo hành': '12 tháng'
+                }
+            },
+            {
+                id: 6,
+                title: 'Máy bơm nước cao cấp',
+                meta: 'Công suất: 1.1KW - 3.7KW',
+                image: 'assets/images/maybom/bom6.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BNCC-11',
+                description: 'Máy bơm nước cao cấp với hiệu suất cao, tiết kiệm điện năng, phù hợp cho các hệ thống cấp nước dân dụng và công nghiệp.',
+                specs: {
+                    'Công suất': '1.1KW - 3.7KW',
+                    'Lưu lượng': '15-60 m³/h',
+                    'Cột áp': '20-45m',
+                    'Đường kính ống': '40-50mm',
+                    'Điện áp': '220V/380V - 50Hz',
+                    'Vật liệu thân máy': 'Gang đúc',
+                    'Vật liệu cánh bơm': 'Thép không gỉ',
+                    'Xuất xứ': 'Nhật Bản',
+                    'Bảo hành': '24 tháng'
+                }
+            },
+            {
+                id: 7,
+                title: 'Máy bơm hút sâu',
+                meta: 'Công suất: 1HP - 3HP',
+                image: 'assets/images/maybom/bom7.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BHS-10',
+                description: 'Máy bơm hút sâu được thiết kế để bơm nước từ giếng sâu, có khả năng hút nước ở độ sâu lên đến 8m và đẩy cao đến 50m.',
+                specs: {
+                    'Công suất': '1HP - 3HP (0.75KW - 2.2KW)',
+                    'Lưu lượng': '5-30 m³/h',
+                    'Cột áp': '25-50m',
+                    'Độ sâu hút': 'Tối đa 8m',
+                    'Đường kính ống': '25-40mm',
+                    'Điện áp': '220V - 50Hz',
+                    'Vật liệu thân máy': 'Gang đúc',
+                    'Vật liệu cánh bơm': 'Đồng hoặc thép không gỉ',
+                    'Xuất xứ': 'Ý',
+                    'Bảo hành': '12 tháng'
+                }
+            },
+            {
+                id: 8,
+                title: 'Máy bơm nước bể cá',
+                meta: 'Công suất: 25W - 100W',
+                image: 'assets/images/maybom/bom8.jpg',
+                price: 'Liên hệ để báo giá',
+                code: 'BBC-025',
+                description: 'Máy bơm nước bể cá với thiết kế nhỏ gọn, hoạt động êm ái, phù hợp cho các bể cá cảnh, bể thủy sinh và hồ cá nhỏ.',
+                specs: {
+                    'Công suất': '25W - 100W',
+                    'Lưu lượng': '1-5 m³/h',
+                    'Cột áp': '1.5-3m',
+                    'Đường kính ống': '13-20mm',
+                    'Điện áp': '220V - 50Hz',
+                    'Vật liệu thân máy': 'Nhựa ABS',
+                    'Vật liệu cánh bơm': 'Nhựa hoặc gốm',
+                    'Xuất xứ': 'Trung Quốc',
+                    'Bảo hành': '6 tháng'
+                }
+            }
+        ];
+
+        // Hàm lấy tham số từ URL
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+        
+        // Hàm tạo HTML cho một sản phẩm
+        function createProductHTML(product, type) {
+            return `
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="${product.image}" alt="${product.title}">
+                        </div>
+                        <div class="product-info">
+                            <h4 class="product-title">${product.title}</h4>
+                            <div class="product-meta">${product.meta}</div>
+                            <a href="product-detail.html?type=${type}&id=${product.id}" class="main-btn mt-4">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Hàm hiển thị danh sách sản phẩm
+        function renderProducts() {
+            // Lấy type từ URL, mặc định là bien-bao
+            var activeType = getUrlParameter('type') || 'bien-bao';
+            
+            // Hiển thị biển báo
+            var bienBaoHTML = '';
+            bienBaoData.forEach(function(product) {
+                bienBaoHTML += createProductHTML(product, 'bien-bao');
+            });
+            document.getElementById('bienbao-products').innerHTML = bienBaoHTML;
+            
+            // Hiển thị máy bơm
+            var mayBomHTML = '';
+            mayBomData.forEach(function(product) {
+                mayBomHTML += createProductHTML(product, 'may-bom');
+            });
+            document.getElementById('maybom-products').innerHTML = mayBomHTML;
+            
+            // Kích hoạt tab tương ứng
+            if(activeType === 'may-bom') {
+                $('#maybom-tab').tab('show');
+            } else {
+                $('#bienbao-tab').tab('show');
+            }
+        }
+        
+        // Khi tài liệu đã sẵn sàng
+        $(document).ready(function() {
+            // Thêm sự kiện khi chuyển tab
+            $('#bienbao-tab').on('click', function(e) {
+                history.replaceState(null, null, 'products.html?type=bien-bao');
+            });
+            
+            $('#maybom-tab').on('click', function(e) {
+                history.replaceState(null, null, 'products.html?type=may-bom');
+            });
+            
+            // Render sản phẩm khi trang được tải
+            renderProducts();
+        });
+    </script>
+</body>
+</html>
